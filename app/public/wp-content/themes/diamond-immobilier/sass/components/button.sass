@@ -1,0 +1,28 @@
+.button
+    display: inline-flex
+    padding: .75em 1.25em
+    transition: all .1s ease-in-out
+    font-weight: 500
+    border-radius: $br-normal
+    border-width: 1px
+    border-color: transparent
+    border-style: solid
+
+    @include link-reset
+
+    &.white
+        background-color: white
+        border-color: white
+        color: $fontColor
+
+        &.outlined
+            background-color: transparent
+            color: white
+
+            &:hover
+                background-color: white
+                color: $fontColor
+
+    &.blue
+        background-color: $blue
+        color: white

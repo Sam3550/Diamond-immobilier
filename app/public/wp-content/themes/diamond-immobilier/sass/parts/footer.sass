@@ -1,0 +1,34 @@
+.footer
+    margin-top: 5rem
+    padding: 3rem 0
+    background-color: $dark
+    color: white
+
+    a
+        color: white
+
+    &__container
+        display: flex
+        flex-direction: column
+        &_logo
+            &_img
+                height: 4rem
+        &_credit
+            margin-top: 1rem
+            
+        &_separator
+            margin: 1.5rem 0
+            border: 0
+            height: 2px
+            background-color: rgba(white, .1)
+        nav
+            ul
+                display: flex
+                gap: 1rem
+                li
+                    a
+                        opacity: .5
+                        transition: opacity .1s ease-in-out
+
+                        &:hover
+                            opacity: 1

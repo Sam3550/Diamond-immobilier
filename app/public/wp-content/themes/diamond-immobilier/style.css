@@ -1,0 +1,491 @@
+@charset "UTF-8";
+/*!
+Theme Name: Diamond Immobilier
+Theme URI: https://github.com/melvinlemoine/WordPress-theme-boilerplate
+Author: Melvin Studio
+Author URI: https://melvin.studio
+Description: Diamond Immobilier est un thème WordPress pédagogique.
+Version: 1.0
+*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.body {
+  position: relative;
+  background-color: #FCFBFC;
+  font-family: Poppins;
+  line-height: 1.25;
+}
+
+.section {
+  padding: 3rem 0;
+}
+.section__title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/poppins/poppins-light.woff2");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/poppins/poppins-regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/poppins/poppins-medium.woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/poppins/poppins-semibold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/poppins/poppins-bold.woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/poppins/poppins-extrabold.woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/poppins/poppins-black.woff2");
+  font-weight: 900;
+}
+.button {
+  display: inline-flex;
+  padding: 0.75em 1.25em;
+  transition: all 0.1s ease-in-out;
+  font-weight: 500;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: transparent;
+  border-style: solid;
+  color: inherit;
+  text-decoration: none;
+}
+.button.white {
+  background-color: white;
+  border-color: white;
+  color: #191E23;
+}
+.button.white.outlined {
+  background-color: transparent;
+  color: white;
+}
+.button.white.outlined:hover {
+  background-color: white;
+  color: #191E23;
+}
+.button.blue {
+  background-color: #0e6eb8;
+  color: white;
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(14, 110, 184, 0.01);
+}
+.navigation__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__container_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation__container_logo_img {
+  height: 4rem;
+}
+.navigation__container nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+.navigation__container nav ul li {
+  display: flex;
+}
+.navigation__container nav ul li a {
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.1s ease-in-out;
+}
+.navigation__container nav ul li a:hover {
+  background-color: white;
+  color: #191E23;
+}
+
+.footer {
+  margin-top: 5rem;
+  padding: 3rem 0;
+  background-color: #191E23;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__container_logo_img {
+  height: 4rem;
+}
+.footer__container_credit {
+  margin-top: 1rem;
+}
+.footer__container_separator {
+  margin: 1.5rem 0;
+  border: 0;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer__container nav ul {
+  display: flex;
+  gap: 1rem;
+}
+.footer__container nav ul li a {
+  opacity: 0.5;
+  transition: opacity 0.1s ease-in-out;
+}
+.footer__container nav ul li a:hover {
+  opacity: 1;
+}
+
+.goodsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.goodCard {
+  border: 2px solid rgba(25, 30, 35, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+}
+.goodCard__box {
+  color: inherit;
+  text-decoration: none;
+}
+.goodCard__box_thumbnail {
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0.75rem;
+}
+.goodCard__box_thumbnail_tag {
+  font-size: 0.85rem;
+  color: #191E23;
+  padding: 0.5em 0.75em;
+  background-color: white;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+}
+.goodCard__box_thumbnail_tag--sell {
+  background-color: rgba(204, 0, 0, 0.5);
+  color: white;
+}
+.goodCard__box_thumbnail_tag--rent {
+  background-color: rgba(0, 153, 77, 0.5);
+  color: white;
+}
+.goodCard__box_content {
+  padding: 1rem 0.75rem;
+}
+.goodCard__box_content_title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+.goodCard__box_content_type {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.goodCard__box_content_price {
+  font-size: 1.25rem;
+}
+
+.home .header {
+  height: 35rem;
+  background-size: cover;
+  background-position: center;
+}
+.home .header__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 110, 184, 0.5);
+  padding-top: 6rem;
+}
+.home .header__overlay_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+}
+.home .header__overlay_container_title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+.home .header__overlay_container_title_span {
+  font-size: 3rem;
+}
+.home .header__overlay_container_title_span_button {
+  margin-top: 1.5rem;
+}
+.home .header__overlay_container_button {
+  margin-top: 1.5rem;
+}
+.home .featured__container {
+  display: grid;
+}
+.home .featured__container_cta {
+  margin-top: 3rem;
+  margin-inline: auto;
+  justify-self: center;
+}
+.home .cities {
+  background-color: #0e6eb8;
+  color: white;
+}
+.home .cities__container {
+  display: grid;
+}
+.home .cities__container_list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+}
+.home .cities__container_list_city {
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.1s ease-in-out;
+}
+.home .cities__container_list_city:hover {
+  transform: scale(1.025);
+}
+.home .cities__container_list_city:hover .cities__container_list_city_overlay_title {
+  transform: scale(1.05) rotate(180deg);
+}
+.home .cities__container_list_city_overlay {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0) 0%, rgba(25, 30, 35, 0.75) 100%);
+  color: inherit;
+  text-decoration: none;
+}
+.home .cities__container_list_city_overlay_title {
+  font-weight: 900;
+  font-size: 3.5rem;
+  text-orientation: mixed;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  transition: transform 0.1s ease-in-out;
+}
+.home .cities__container_cta {
+  margin-top: 3rem;
+  margin-inline: auto;
+}
+.home .values__container_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.home .values__container_list_value {
+  padding: 1.5rem;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #0e6eb8 0%, #3a9add 100%);
+  color: white;
+}
+.home .values__container_list_value_icon {
+  width: 3.5rem;
+  height: inherit;
+  fill: white;
+}
+.home .values__container_list_value_title {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.home .values__container_list_value_description {
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 1.25;
+}
+
+.single-annonces {
+  padding-top: 10rem;
+}
+.single-annonces .navigation {
+  background-color: #0e6eb8;
+}
+.single-annonces .content__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.single-annonces .content__container_illustration {
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.single-annonces .content__container_informations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.single-annonces .content__container_informations_title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.single-annonces .content__container_informations_tags {
+  display: flex;
+  gap: 0.5rem;
+}
+.single-annonces .content__container_informations_tags_city {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  padding: 0.6em 1em 0.5em 1em;
+  border-radius: 50px;
+  gap: 0.5rem;
+  background-color: #191E23;
+  color: white;
+}
+.single-annonces .content__container_informations_tags_city_icon {
+  width: 0.75rem;
+  fill: white;
+}
+.single-annonces .content__container_informations_tags_city_label {
+  transform: translateY(1px);
+}
+.single-annonces .content__container_informations_tags_offer {
+  font-size: 0.85rem;
+  padding: 0.6em 1em 0.5em 1em;
+  border-radius: 50px;
+}
+.single-annonces .content__container_informations_tags_offer--sell {
+  background-color: #cc0000;
+  color: white;
+}
+.single-annonces .content__container_informations_tags_offer--rent {
+  background-color: #00994d;
+  color: white;
+}
+.single-annonces .content__container_informations_price {
+  font-size: 1.25rem;
+  background-color: #0e6eb8;
+  padding: 0.6em 1em 0.5em 1em;
+  color: white;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.single-annonces .content__container_informations_description {
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+
+.tax-offre .header {
+  display: flex;
+  height: 25rem;
+  padding-top: 6rem;
+  background: linear-gradient(145deg, #0e6eb8 0%, #3a9add 100%);
+}
+.tax-offre .header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tax-offre .header__container_title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.tax-ville .header {
+  display: flex;
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+}
+.tax-ville .header__overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(14, 110, 184, 0.5) 0%, rgba(58, 154, 221, 0.5) 100%);
+}
+.tax-ville .header__overlay_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tax-ville .header__overlay_container_title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.post-type-archive-annonces .header {
+  display: flex;
+  height: 25rem;
+  padding-top: 6rem;
+  background: linear-gradient(145deg, #0e6eb8 0%, #3a9add 100%);
+}
+.post-type-archive-annonces .header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-type-archive-annonces .header__container_title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

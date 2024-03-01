@@ -1,0 +1,332 @@
+# Translation of Plugins - QuickWebP &#8211; Compress / Optimize Images &amp; Convert WebP | SEO Friendly - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - QuickWebP &#8211; Compress / Optimize Images &amp; Convert WebP | SEO Friendly - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-09 12:42:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - QuickWebP &#8211; Compress / Optimize Images &amp; Convert WebP | SEO Friendly - Stable (latest release)\n"
+
+#: admin/templates/page-settings.php:255
+msgid "wordpress.org"
+msgstr "wordpress.org"
+
+#: admin/templates/page-settings.php:254
+msgid "You can show all Webdeclic's plugins on "
+msgstr "Vous pouvez afficher toutes les extensions de Webdeclic sur "
+
+#: admin/templates/page-settings.php:248
+msgid "You can support this project here:"
+msgstr "Vous pouvez supporter ce projet ici :"
+
+#: admin/templates/page-settings.php:246
+msgid "This plugin is developed by"
+msgstr "Cette extension est développée par"
+
+#: admin/templates/page-settings.php:243
+msgid "Credits"
+msgstr "Crédits"
+
+#: admin/templates/page-settings.php:99
+msgid "Use rewrite rules %s"
+msgstr "Utiliser les règles de réécriture %s"
+
+#: admin/templates/page-settings.php:95
+msgid "Use <picture> tags"
+msgstr "Utilisez les balises <picture>"
+
+#: admin/templates/page-settings.php:91
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: admin/templates/page-settings.php:81
+msgid "If you choose to use rewrite rules, the file conf/quickwebp.conf will be created and must be included into the server's configuration file (then restart the server)."
+msgstr "Si vous choisissez d’utiliser des règles de réécriture, le fichier conf/quickwebp.conf sera créé et devra être inclus dans le fichier de configuration du serveur (redémarrez ensuite le serveur)."
+
+#: admin/rewrite-rules/class-rewrite-rules-abstract.php:160
+msgid "Could not write into the %s file."
+msgstr "Impossible d’écrire dans le fichier %s."
+
+#: admin/rewrite-rules/class-rewrite-rules-abstract.php:136
+msgid "The %s file could not be read."
+msgstr "Le fichier %s n’a pas pu être lu."
+
+#: admin/templates/popup-settings-preview.php:45
+msgid "Original Image"
+msgstr "Image originale"
+
+#: admin/templates/popup-settings-preview.php:19
+msgid "Add image"
+msgstr "Ajouter une image"
+
+#: admin/templates/popup-settings-preview.php:10
+msgid "Preview"
+msgstr "Aperçu"
+
+#: admin/templates/page-settings.php:137
+msgid "Max size"
+msgstr "Taille maximale"
+
+#: admin/templates/page-settings.php:129
+msgid "By default, WordPress limits the maximum width of uploaded images to 2560 pixels."
+msgstr "Par défaut, WordPress limite la largeur maximale des images téléversées à 2560 pixels."
+
+#: admin/templates/page-settings.php:126
+msgid "Enable/disable image resizing"
+msgstr "Activer/désactiver le redimensionnement des images"
+
+#: admin/templates/page-settings.php:108
+msgid "Bulk optimization"
+msgstr "Optimisation en masse"
+
+#: admin/templates/page-settings.php:87
+msgid "If activated, this option allows to deliver optimized images in bulk via QuickWebP in WebP format (useless for images converted to import). %s"
+msgstr "Si elle est activée, cette option autorise  la délivrance des images optimisées en masse via QuickWebP au format WebP (inutile pour les images converties en import). %s"
+
+#: admin/templates/page-settings.php:86
+msgid "Display images in WebP format on the site"
+msgstr "Afficher les images au format WebP sur le site"
+
+#: admin/templates/page-settings.php:73
+msgid "Before saving, test your configuration with preview mode."
+msgstr "Avant de sauvegarder, testez votre configuration en mode prévisualisation."
+
+#: admin/templates/page-settings.php:48
+msgid "Do not compress images already in WebP"
+msgstr "Ne pas compresser les images déjà en WebP"
+
+#: admin/templates/bulk-optimization.php:26
+msgid "Stop"
+msgstr "Stop"
+
+#: admin/templates/bulk-optimization.php:21
+msgid "Start"
+msgstr "Commencer"
+
+#: admin/class-wp-media-extends.php:217
+msgid "Optimize"
+msgstr "Optimiser"
+
+#: admin/class-wp-media-extends.php:196
+msgid "Undo optimization"
+msgstr "Annuler l’optimisation"
+
+#: admin/class-wp-media-extends.php:191
+msgid "Save: "
+msgstr "Enregistrer : "
+
+#: admin/class-wp-media-extends.php:187
+msgid "Webp: "
+msgstr "Webp : "
+
+#: admin/class-wp-media-extends.php:183
+msgid "Original Image: "
+msgstr "Image d’origine : "
+
+#: admin/class-wp-media-extends.php:131
+msgid "Image type not supported"
+msgstr "Type d’image non pris en charge !"
+
+#: admin/class-wp-media-extends.php:61
+msgid "Click here, and paste your image."
+msgstr "Cliquez ici, et collez votre image."
+
+#: admin/class-wp-media-extends.php:60
+msgid "Quickwebp paste image"
+msgstr "Quickwebp coller l’image"
+
+#: admin/class-image-optimizer.php:617
+msgid "Not optimized."
+msgstr "Non optimisé."
+
+#: admin/class-image-optimizer.php:559
+msgid "Not a valid image."
+msgstr "Ce n’est pas une image valide."
+
+#: admin/class-image-optimizer.php:549
+msgid "Already optimized."
+msgstr "Déjà optimisé."
+
+#: admin/class-image-optimizer.php:544 admin/class-image-optimizer.php:601
+msgid "No attachment id."
+msgstr "Aucun ID du fichier joint."
+
+#: admin/class-image-optimizer.php:327 admin/class-image-optimizer.php:333
+msgid "No image uploaded, try again."
+msgstr "Aucune image n’a été téléversée, veuillez réessayer."
+
+#: admin/class-cron-job.php:166
+msgid "Bulk optimization stopped."
+msgstr "L’optimisation en masse a démarrée."
+
+#: admin/class-cron-job.php:130
+msgid "Bulk optimization is already running."
+msgstr "L’optimisation en masse est déjà en cours."
+
+#: admin/class-cron-job.php:125
+msgid "No images to optimize."
+msgstr "Aucune image à optimiser."
+
+#: admin/class-cron-job.php:118 admin/class-cron-job.php:150
+#: admin/class-cron-job.php:162 admin/class-cron-job.php:169
+#: admin/class-cron-job.php:181 admin/class-image-optimizer.php:318
+#: admin/class-image-optimizer.php:537 admin/class-image-optimizer.php:594
+msgid "Refresh the page and try again."
+msgstr "Actualiser la page et réessayer."
+
+#: admin/class-cron-job.php:50
+msgid "Every minute"
+msgstr "Chaque minute"
+
+#: admin/templates/page-settings.php:235
+msgid "We use the GD library as the default option. However, if the GD library is not available, we will use Imagick instead."
+msgstr "Nous utilisons la bibliothèque GD comme option par défaut. Toutefois, si la bibliothèque GD n’est pas disponible, nous utiliserons Imagick à la place."
+
+#: admin/templates/page-settings.php:233
+msgid "Library to use"
+msgstr "Bibliothèque à utiliser"
+
+#: admin/class-settings.php:182
+msgid "Please contact your hosting provider and ask them to install the Imagick or GD library for PHP. They should be able to assist you with this process. Once the library is installed, QuickWebP should work as expected."
+msgstr "Veuillez contacter votre hébergeur et lui demander d’installer la bibliothèque Imagick ou GD pour PHP. Il devrait être en mesure de vous aider dans cette démarche. Une fois la bibliothèque installée, QuickWebP devrait fonctionner comme prévu."
+
+#: admin/class-settings.php:181
+msgid "Oops! QuickWebP needs the Imagick or GD library to function properly, but it looks like the no Imagick nor GD is not installed on your server."
+msgstr "Oups ! QuickWebP a besoin de la bibliothèque Imagick ou GD pour fonctionner correctement, mais il semble que ni Imagick ni GD ne soient installés sur votre serveur."
+
+#: admin/class-settings.php:167
+msgid "Please contact your hosting provider and ask them to install the Imagick library for PHP. They should be able to assist you with this process. Once the library is installed, QuickWebP should work as expected."
+msgstr "Veuillez contacter votre hébergeur et lui demander d’installer la bibliothèque Imagick pour PHP. Il devrait être en mesure de vous aider dans cette démarche. Une fois la bibliothèque installée, QuickWebP devrait fonctionner comme prévu."
+
+#: admin/class-settings.php:166
+msgid "Oops! QuickWebP needs the Imagick library to function properly, but it looks like the library is not installed on your server."
+msgstr "Oups ! QuickWebP a besoin de la bibliothèque Imagick pour fonctionner correctement, mais il semble que cette bibliothèque ne soit pas installée sur votre serveur."
+
+#: admin/class-settings.php:152 admin/class-settings.php:168
+#: admin/class-settings.php:183
+msgid "Thank you for using QuickWebP!"
+msgstr "Merci d’utiliser QuickWebP !"
+
+#: admin/class-settings.php:151
+msgid "Please contact your hosting provider and ask them to install the GD library for PHP. They should be able to assist you with this process. Once the library is installed, QuickWebP should work as expected."
+msgstr "Veuillez contacter votre hébergeur et lui demander d’installer la bibliothèque GD pour PHP. Il devrait être en mesure de vous aider dans cette démarche. Une fois la bibliothèque installée, QuickWebP devrait fonctionner comme prévu."
+
+#: admin/class-settings.php:150
+msgid "Oops! QuickWebP needs the GD library to function properly, but it looks like the library is not installed on your server."
+msgstr "Oups ! QuickWebP a besoin de la bibliothèque GD pour fonctionner correctement, mais il semble que cette bibliothèque ne soit pas installée sur votre serveur."
+
+#: admin/class-settings.php:130
+msgid "<a href=\"%s\">Settings</a>"
+msgstr "<a href=\"%s\">Réglages</a>"
+
+#. Description of the plugin
+msgid "QuickWebP is an image compression and optimization plugin for WordPress that automatically converts images to WebP when they are uploaded to the media library. It also optimizes the image to improve your site’s performance."
+msgstr "QuickWebP est une extension de compression et d’optimisation d’images pour WordPress qui convertit automatiquement les images en WebP lorsqu’elles sont téléversées dans la médiathèque. Il optimise également l’image pour améliorer les performances de votre site."
+
+#: quickwebp.php:108
+msgid "Oops! QuickWebP isn't running because PHP is outdated. Update to PHP version 7.4"
+msgstr "Oups ! QuickWebP ne fonctionne pas car PHP est obsolète. Mettez à jour vers la version 7.4 de PHP"
+
+#: admin/templates/page-settings.php:211
+msgid "With this feature you can paste directly your picture in WordPress media."
+msgstr "Avec cette fonctionnalité vous pouvez coller directement votre image dans la médiathèque de WordPress."
+
+#: admin/templates/page-settings.php:209
+msgid "Enable/disable paste picture directly (beta)"
+msgstr "Activer/désactiver le collage direct d’images (beta)"
+
+#: admin/templates/page-settings.php:7
+msgid "QuickWebp Settings"
+msgstr "Réglages de QuickWebp"
+
+#: admin/class-wp-media-extends.php:59
+msgid "Please enter the name of your image"
+msgstr "Veuillez saisir le nom de votre image"
+
+#: admin/templates/page-settings.php:197
+msgid "Remove special characters from file names."
+msgstr "Supprimez les caractères spéciaux des noms de fichiers."
+
+#: admin/templates/page-settings.php:195
+msgid "Enable/disable file name cleanup"
+msgstr "Activer/désactiver le nettoyage des noms de fichiers"
+
+#: admin/templates/page-settings.php:178
+msgid "Description completion from image name."
+msgstr "Complément de description à partir du nom de l’image."
+
+#: admin/templates/page-settings.php:174
+msgid "Alt text completion from image name."
+msgstr "Compléter le texte alternatif à partir du nom de l’image."
+
+#: admin/templates/page-settings.php:170
+msgid "Caption completion from image name."
+msgstr "Compléter la légende à partir du nom de l’image."
+
+#: admin/templates/page-settings.php:166
+msgid "Title completion from image name"
+msgstr "Compléter le titre à partir du nom de l’image"
+
+#: admin/templates/page-settings.php:155
+msgid "This feature will automatically complete the media information (title, caption, alt text, description) from the image name."
+msgstr "Cette fonctionnalité complète automatiquement les informations sur les médias (titre, légende, texte alt, description) à partir du nom de l’image."
+
+#: admin/templates/page-settings.php:152
+msgid "Enable/disable smart media completion for SEO"
+msgstr "Activer/désactiver la complétion intelligente des médias pour le référencement"
+
+#: admin/templates/page-settings.php:41
+msgid "Sharpen"
+msgstr "Aiguiser"
+
+#: admin/templates/page-settings.php:30
+msgid "Quality"
+msgstr "Qualité"
+
+#: admin/templates/page-settings.php:16
+msgid "Enable/disable image conversion to WEBP format"
+msgstr "Activer/désactiver la conversion des images au format WEBP"
+
+#: admin/components/select.php:19
+msgid "Select an option"
+msgstr "Sélectionner une option"
+
+#: admin/components/media.php:53
+msgid "Remove medias"
+msgstr "Supprimer les médias"
+
+#: admin/components/media.php:47 admin/components/media.php:65
+msgid "Select media"
+msgstr "Sélectionner un média"
+
+#: admin/components/media.php:21
+msgid "No image selected"
+msgstr "Aucune image sélectionnée"
+
+#: admin/class-settings.php:71 admin/class-wp-media-extends.php:116
+msgid "Quickwebp"
+msgstr "Quickwebp"
+
+#: admin/class-settings.php:70
+msgid "Quickwebp Settings"
+msgstr "Réglages de QuickWebp"
+
+#. Author URI of the plugin
+msgid "https://webdeclic.com/"
+msgstr "https://webdeclic.com/"
+
+#. Author of the plugin
+msgid "Webdeclic"
+msgstr "Webdeclic"
+
+#. Plugin URI of the plugin
+msgid "https://webdeclic.com/projets/creation-de-lextension-wordpress-quickwebp/"
+msgstr "https://webdeclic.com/projets/creation-de-lextension-wordpress-quickwebp/"
+
+#. Plugin Name of the plugin
+msgid "QuickWebP - Compress / Optimize Images & Convert WebP | SEO Friendly"
+msgstr "QuickWebP - Compress/Optimize Images & Convert WebP | SEO Friendly"

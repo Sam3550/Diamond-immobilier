@@ -1,0 +1,28 @@
+.values
+    &__container
+        &_list
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            gap: 1.5rem
+
+            &_value
+                padding: 1.5rem
+                border-radius: $br-normal
+                // border: 1px solid black
+                background: linear-gradient(145deg, rgba($blue,1) 0%, rgba($blue_hover,1) 100%)
+                color: white
+
+                &_icon
+                    width: 3.5rem
+                    height: inherit
+                    fill: white
+
+                &_title
+                    margin-top: 1rem
+                    font-weight: bold
+                    font-size: 2rem
+
+                &_description
+                    margin-top: 1rem
+                    text-align: justify
+                    line-height: 1.25

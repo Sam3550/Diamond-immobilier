@@ -1,0 +1,135 @@
+[19-Jan-2024 08:36:50 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 96000001 bytes) in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/plugins/quickwebp/includes/vendor/intervention/image/src/Intervention/Image/Gd/Commands/SharpenCommand.php on line 32
+[19-Jan-2024 09:51:44 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 31
+[19-Jan-2024 09:51:45 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 31
+[19-Jan-2024 09:51:45 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 31
+[19-Jan-2024 09:51:46 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 31
+[19-Jan-2024 10:18:32 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 31
+[19-Jan-2024 10:18:32 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 31
+[19-Jan-2024 10:18:34 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 31
+[19-Jan-2024 10:46:08 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:08 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:09 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:09 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:09 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:09 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:10 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:10 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:11 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:11 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:46 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:46 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:47 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:47 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:47 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:47 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:50 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:50 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:50 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:50 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:55 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:55 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:58 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:46:58 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:47:11 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:47:11 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:47:11 UTC] PHP Warning:  Undefined variable $term in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 10:47:11 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php:11
+Stack trace:
+#0 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-blog-header.php(19): require_once('/Users/samirily...')
+#2 /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/index.php(17): require('/Users/samirily...')
+#3 {main}
+  thrown in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 11
+[19-Jan-2024 11:47:16 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 88
+[19-Jan-2024 11:47:17 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 88
+[19-Jan-2024 11:47:17 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 88
+[19-Jan-2024 11:48:26 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 78
+[19-Jan-2024 11:48:27 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 78
+[19-Jan-2024 12:30:27 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:28 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:28 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:28 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:29 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:29 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:29 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:44 UTC] PHP Parse error:  syntax error, unexpected variable "$term" in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:45 UTC] PHP Parse error:  syntax error, unexpected variable "$term" in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
+[19-Jan-2024 12:30:47 UTC] PHP Parse error:  syntax error, unexpected variable "$term" in /Users/samirilyesglaglou/Local Sites/samir-glaglou/app/public/wp-content/themes/diamond-immobilier/front-page.php on line 85
